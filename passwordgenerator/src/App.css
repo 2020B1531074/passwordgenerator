@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* CSS styles */
+.container {
+  width: 50rem;
+  height: 50rem;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #1a202c;
+  color: #edf2f7;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.password-input {
+  flex-grow: 1;
+  padding: 8px;
+  background:#edf2f7;
+  color: #edf2f7;
+  border: none;
+  border-radius: 4px;
+}
+
+.copy-button {
+  background-color: #4a90e2;
+  color: #edf2f7;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.options-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type='range'] {
+  cursor: pointer;
+}
+
+label {
+  font-size: 14px;
+}
